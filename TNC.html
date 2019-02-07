@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Women Techies | DSC</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="icon" href="Assets/favicon2.png" type="image/x-icon"/>
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
     <style>
@@ -10,7 +11,7 @@
                 padding: 5px;
                 position: absolute;
                 /*text-align: left;*/
-                font-size: 1.2vw;
+                font-size: 1.2em;
                 text-align: justify;
                 text-justify: inter-word;
                 margin: 0% 10% 5% 10%;
@@ -18,17 +19,21 @@
             #back{
                 height: 12vw;
                 width: 12vw;
-                margin-top: -4%;
+                margin-top: -5%;
             }
-            @media only screen and (max-width: 800px) {
-            #about{
-                font-size: 3vw;
-            }
-            #back{
-                height: 15vh;
-                width: 15vh;
-                margin-top: -4%;
-            }
+            @media only screen and (max-width: 767px) {
+                #about{
+                    font-size: 1em;
+                }
+                #back{
+                    height:15vh;
+                    width: 15vh;
+                    margin-left: -9%;
+                }
+                #tnc{
+                    font-size: 1.2;
+                    margin-top: -12.2%;
+                }
             }
     </style>
 </head>
@@ -36,7 +41,7 @@
 <a href="https://dscvit.com/Women-Techies-Site/#five"> <img id="back" src="Assets/previous.svg"></a>
 <div id="about" style="margin-top: -10vw;">
     <!--<i style="height: 15px;width: 15px" class="far fa-chevron-left"></i>-->
-  <p style="font-size: 2vw;text-align: center">WomenTechies'19: Terms And Conditions</p>
+  <p id = "tnc" style="font-size: 1.8em;text-align: center">WomenTechies'19: Terms And Conditions</p>
     <p style="text-align: center">Any kind of professionalism begins with obeying all the rules and regulations. By participating, you agree to these terms and conditions.</p><br>
     <p style="padding-top: -10px">1) Participation in the Hackathon constitutes participant's full and unconditional agreement to and acceptance of these Terms and Conditions.<br>
     2) It is mandatory for participants to participate in the hackathon in a team of a maximum of 5 members with 50% of the members as girls. Participants need to attend the entirety of the duration of the respective events to be eligible for certificates.
