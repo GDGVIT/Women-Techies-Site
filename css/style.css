@@ -237,7 +237,9 @@ body {
     .TNCandFaqs{
         font-size:1.2em;
     }
-
+    #subbut{
+        padding-top: 12px;
+    }
 }
 @media (min-width : 801px) {
     #logoAbt {
@@ -259,7 +261,7 @@ body {
         position: absolute;
         background-color: rgba(48,125,255,1);
         height: auto;
-        width: 20vw;
+        width: 25vw;
         padding: 5px 0 5px 0;
         text-align: center;
         font-size: 2.2em;
@@ -376,12 +378,12 @@ body {
     }
     #details {
         color: white;
-        margin-left: 68vw;
+        margin-left: 74vw;
         position: absolute;
         padding: 2px 2px 5px 2px;
         background-color: rgba(48,125,255,1);
         height: auto;
-        width: 25vw;
+        width: 17vw;
         text-align: center;
         font-size: 2.2em;
         margin-top: 10vh;
