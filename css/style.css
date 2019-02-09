@@ -234,12 +234,11 @@ body {
     .coming-soon{
         font-size: 2em;
     }
-    .TNCandFaqs{
-        font-size:1.2em;
+    .btn-bottom {
+        margin-top: 15px;
+        display: block;
     }
-    /*#subbut{*/
-        /*padding-top: 12px;*/
-    /*}*/
+
 }
 @media (min-width : 801px) {
     #logoAbt {
@@ -423,6 +422,13 @@ body {
 
     #cont {
         margin-top: 10vh;
+    }
+    .btn-b {
+        margin-top: 15px;
+        display: inline-block;
+    }
+    .btn-l {
+        margin-left : 20px;
     }
 
 }
