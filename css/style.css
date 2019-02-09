@@ -237,9 +237,9 @@ body {
     .TNCandFaqs{
         font-size:1.2em;
     }
-    #subbut{
-        padding-top: 12px;
-    }
+    /*#subbut{*/
+        /*padding-top: 12px;*/
+    /*}*/
 }
 @media (min-width : 801px) {
     #logoAbt {
