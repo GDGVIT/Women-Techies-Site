@@ -5,10 +5,22 @@ body {
     background-color: rgb(48,125,255)!important;
 }
 
+.img {
+    width: 30%;
+    height: 40%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px;
+
+}
 #clicks {
     cursor: pointer;
 }
 @media (max-width : 800px) {
+
     .animated {
       -o-transition-property: none !important;
       -moz-transition-property: none !important;
@@ -240,8 +252,17 @@ body {
     #subbut{
         padding-top: 12px;
     }
+    .img{
+        width: 60%;
+    }
+    #SponserLogo{
+        margin-top: 15vh;
+    }
 }
 @media (min-width : 801px) {
+    .secondlogo{
+        margin-left: 100px;
+    }
     #logoAbt {
         position: absolute;
         height: 28vw;
@@ -423,6 +444,12 @@ body {
 
     #cont {
         margin-top: 10vh;
+    }
+    #SponserLogo{
+        margin-top: 20vh;
+    }
+    #uhlogo {
+        margin-top: 60px;
     }
 
 }
