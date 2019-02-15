@@ -240,8 +240,103 @@ body {
     #subbut{
         padding-top: 12px;
     }
+    .sponDiv {
+        height: 100vh;
+        width : 100vw;
+        background-color: transparent;
+        position: absolute;
+        z-index: 1
+    }
+    .sponDivTop {
+        /*display: inline-block;*/
+        margin-top: 15vh
+    }
+    /*}*/
+    /*.sponDivBottom{*/
+        /*display: inline-block;*/
+    /*}*/
+    #imgOne{
+        height: 45px;
+        width: auto;
+    }
+    #imgThree{
+        height: 32px;
+        width: auto;
+    }
+    #imgTwo {
+        height: 38px;
+        width: auto;
+    }
+    #imgFour{
+        height: 33px;
+        width: auto;
+    }
+    #divImgOne{
+        margin: 150px auto 80px auto;
+        display: block;
+    }
+    #divImgThree{
+        margin: 50px auto 80px auto;
+        display: block;
+    }
+    #divImgTwo {
+        margin: 50px auto 80px auto;
+        display: block;
+    }
+    #divImgFour{
+        margin: 50px auto 80px auto;
+        display: block;
+    }
+
 }
 @media (min-width : 801px) {
+    #divImgOne{
+        margin: 0 150px 145px 0;
+        display: inline-block;
+    }
+    #divImgThree{
+        margin: 0 150px 150px 0;
+        display: inline-block;
+    }
+    #divImgTwo {
+        margin: 0 150px 150px 75px;
+        display: inline-block;
+    }
+    #divImgFour{
+        margin: 0 150px 150px 0;
+        display: inline-block;
+    }
+
+    .sponDiv {
+        height: 100vh;
+        width : 84vw;
+        background-color: transparent;
+        position: absolute;
+        z-index: 1
+    }
+    .sponDivTop{
+        display: inline-block;
+        margin-top: 30vh
+    }
+    .sponDivBottom{
+        display: inline-block;
+    }
+    #imgOne{
+        height: 80px;
+        width: auto;
+    }
+    #imgThree{
+        height: 50px;
+        width: auto;
+    }
+    #imgTwo {
+        height: 60px;
+        width: auto;
+    }
+    #imgFour{
+        height: 60px;
+        width: auto
+    }
     #logoAbt {
         position: absolute;
         height: 28vw;
