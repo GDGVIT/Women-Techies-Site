@@ -16,30 +16,42 @@ body {
     padding: 10px;
 
 }
+<div class="col-md-10" id="leftPs" style="float:left;display: inline-block;background: rgba(0,194,162,1);color: white;">
+                <div id="SponserLogo">
+                    <div>
+                    <img src="assets/lbry.svg" class="img1" style="width: 40%;">
+                    <img src="assets/turbot.svg" class="img1 secondlogo">
+                    </div>
+                    <div id="uhlogo">
+                    <img src="assets/upcloud.svg" class="img1" style="width: 40%;">
+                    <img src="assets/HE_logo.svg" class="img1 secondlogo">
+                    </div>
+                </div>
+
+            </div>
+
 #clicks {
     cursor: pointer;
 }
 @media (max-width : 800px) {
-    .img1{
-        width: 60%;
-    }
+
     .animated {
-        -o-transition-property: none !important;
-        -moz-transition-property: none !important;
-        -ms-transition-property: none !important;
-        -webkit-transition-property: none !important;
-        transition-property: none !important;
-        -o-transform: none !important;
-        -moz-transform: none !important;
-        -ms-transform: none !important;
-        -webkit-transform: none !important;
-        transform: none !important;
-        -webkit-animation: none !important;
-        -moz-animation: none !important;
-        -o-animation: none !important;
-        -ms-animation: none !important;
-        animation: none !important;
-    }
+      -o-transition-property: none !important;
+      -moz-transition-property: none !important;
+      -ms-transition-property: none !important;
+      -webkit-transition-property: none !important;
+      transition-property: none !important;
+      -o-transform: none !important;
+      -moz-transform: none !important;
+      -ms-transform: none !important;
+      -webkit-transform: none !important;
+      transform: none !important;
+      -webkit-animation: none !important;
+      -moz-animation: none !important;
+      -o-animation: none !important;
+      -ms-animation: none !important;
+      animation: none !important;
+ }
     #fp-nav ul li a span, .fp-slidesNav ul li a span{
         display: none;
     }
@@ -252,12 +264,21 @@ body {
         margin-top: 15px;
         display: block;
     }
+<<<<<<< HEAD
+    .img{
+        width: 60%;
+    }
     #SponserLogo{
         margin-top: 15vh;
     }
+=======
 
+>>>>>>> 24a7886a19c92301fa75cf7de3da9a4ef3e20745
 }
 @media (min-width : 801px) {
+    .secondlogo{
+        margin-left: 100px;
+    }
     #logoAbt {
         position: absolute;
         height: 28vw;
@@ -440,20 +461,20 @@ body {
     #cont {
         margin-top: 10vh;
     }
+<<<<<<< HEAD
+    #SponserLogo{
+        margin-top: 20vh;
+    }
+    #uhlogo {
+        margin-top: 60px;
+=======
     .btn-b {
         margin-top: 15px;
         display: inline-block;
     }
     .btn-l {
         margin-left : 20px;
+>>>>>>> 24a7886a19c92301fa75cf7de3da9a4ef3e20745
     }
-    #SponserLogo{
-        margin-top: 20vh;
-    }
-    #uhlogo {
-        margin-top: 60px;
-    }
-    .secondlogo{
-        margin-left: 100px;
-    }
+
 }

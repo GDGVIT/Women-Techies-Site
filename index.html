@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.css" />
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/buttonAnim.css">
+
 </head>
 <body style="font-family: 'Muli', sans-serif;">
 <div id="fullpage">
@@ -88,24 +89,25 @@
 
                 <img src="Assets/WTM.png" id="logoPs">
             </div>
-            <div class="col-md-10" id="leftPs" style="float:left;display: inline-block;background: rgba(0,194,162,1);color: white;">
-                <div id="SponserLogo">
-                    <div>
-                    <img src="assets/lbry.svg" class="img" style="width: 40%;">
-                    <img src="assets/turbot.svg" class="img secondlogo">
-                    </div>
-                    <div id="uhlogo">
-                    <img src="assets/upcloud.svg" class="img" style="width: 40%;">
-                    <img src="assets/HE_logo.svg" class="img secondlogo">
-                    </div>
-                </div>
 
-            </div>
 
-            <div  id="details" >
+            <div  id="details" style="z-index: 2; position: absolute;" >
                 Sponsors
 
             </div>
+            <div class="col-md-10" id="leftPs" style="float:left;display: inline-block;background: rgba(0,194,162,1);color: white;">
+                <div class="col-md-10" id="leftPs" style="float:left;display: inline-block;background: rgba(0,194,162,1);color: white;">
+                    <div id="SponserLogo">
+                        <div>
+                            <img src="assets/lbry.svg" class="img1" style="width: 40%;">
+                            <img src="assets/turbot.svg" class="img1 secondlogo">
+                        </div>
+                        <div id="uhlogo">
+                            <img src="assets/upcloud.svg" class="img1" style="width: 40%;">
+                            <img src="assets/HE_logo.svg" class="img1 secondlogo">
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 
@@ -125,32 +127,32 @@
                 </div>
 
                 <!--<div class="row" style="text-align: center;" >-->
-                    <!--<div class="col-md-6 col-lg-3 cardTop X " >-->
+                <!--<div class="col-md-6 col-lg-3 cardTop X " >-->
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardTop "  >-->
+                <!--</div>-->
+                <!--<div class="col-md-6 col-lg-3 cardTop "  >-->
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardTop"  >-->
+                <!--</div>-->
+                <!--<div class="col-md-6 col-lg-3 cardTop"  >-->
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardTop"  >-->
+                <!--</div>-->
+                <!--<div class="col-md-6 col-lg-3 cardTop"  >-->
 
-                    <!--</div>-->
+                <!--</div>-->
                 <!--</div>-->
                 <!--<div class="row" style="text-align: center">-->
-                    <!--<div class="col-md-6 col-lg-3 cardBottom " >-->
+                <!--<div class="col-md-6 col-lg-3 cardBottom " >-->
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardBottom" >-->
+                <!--</div>-->
+                <!--<div class="col-md-6 col-lg-3 cardBottom" >-->
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardBottom cardLast" >-->
+                <!--</div>-->
+                <!--<div class="col-md-6 col-lg-3 cardBottom cardLast" >-->
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardBottom cardLast" >-->
+                <!--</div>-->
+                <!--<div class="col-md-6 col-lg-3 cardBottom cardLast" >-->
 
-                    <!--</div>-->
+                <!--</div>-->
                 <!--</div>-->
             </div>
             <div id="about" >Tracks</div>
@@ -183,11 +185,18 @@
 
 
                 <div style="margin-left: 10vw;margin-top: 6.5vh; cursor: pointer;">
-                    <a href="https://bit.ly/wtm19reg" target="_blank">
-                    <img src="Assets/RegButton.png" style="height: auto;width: 15vw;min-height: 45px;min-width: 167px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://upcloud.com/signup/" target="_blank">
-                        <img src="Assets/Submit.png" id="subbut" style="height: auto;width: 15vw;min-height: 45px;min-width: 167px;">
-                    </a>
+                    <div class="btn-bottom btn-b">
+                        <a href="https://bit.ly/wtm19reg" target="_blank">
+                            <img src="Assets/RegButton.png" style="height: auto;width: 15vw;min-height: 45px;min-width: 167px;">
+                        </a>
+                    </div>
+                    <div class="btn-bottom btn-b btn-l">
+                        <a href="https://upcloud.com/signup/?promo=vit" target="_blank">
+                            <img src="Assets/Submit.png" style="height: auto;width: 15vw;min-height: 45px;min-width: 167px;">
+                        </a>
+                    </div>
+
+
                     <br><br>
                     <div style="display: inline-block;"><a href="TNC.html"><h1 class="TNCandFaqs" style="color:white;font-size: 15px"><u>Terms And Conditions</u></h1></a></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <div style="display: inline-block;"><a href="faqs.html"><h1 class="TNCandFaqs" style="color:white;font-size: 15px"><u>FAQs</u></h1></a></div>
@@ -211,17 +220,13 @@
     function animateCSS(element, animationName, callback) {
         const node = document.querySelector(element)
         node.classList.add('animated', animationName, 'delay-0.5s')
-
         function handleAnimationEnd() {
             node.classList.remove('animated', animationName)
             node.removeEventListener('animationend', handleAnimationEnd)
-
             if (typeof callback === 'function') callback()
         }
-
         node.addEventListener('animationend', handleAnimationEnd)
     }
-
     function applyAnimations(i){
         if(i === "two"){
             animateCSS('#leftAbt', 'fadeInLeft');
@@ -239,7 +244,6 @@
             animateCSS('#leftDet', 'fadeInRight');
             animateCSS('#event', 'fadeInLeft');
         }
-
     }
     animateCSS('#img-mid', 'fadeInUp');
     $('#fullpage').fullpage({
@@ -263,7 +267,6 @@
             if(origin.index == 1 && direction =='down'){
 //                    alert("Going to section 3!");
             }
-
             else if(origin.index == 1 && direction == 'up'){
 //                    alert("Going to section 1!");
             }
@@ -274,13 +277,8 @@
     //         'scrollTop' : $("#two").position().top
     //     });
     // });
-
     //methods
     $.fn.fullpage.setAllowScrolling(true);
-
-
-
-
 </script>
 
 </body>
