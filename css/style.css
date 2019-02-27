@@ -264,7 +264,7 @@ body {
     }
     .sponDivTop {
         /*display: inline-block;*/
-        margin-top: 1vh;
+        margin-top: 3vh;
     }
     /*}*/
     /*.sponDivBottom{*/
@@ -287,11 +287,11 @@ body {
         width: auto;
     }
     #imgSix{
-        height: 48px;
-        width: 48px;
+        height: 68px;
+        width: 68px;
     }
     #divImgOne{
-        margin: 100px auto 37px auto;
+        margin: 150px auto 37px auto;
         display: block;
     }
     #divImgThree{
@@ -374,7 +374,7 @@ body {
     }
 
     #imgSix{
-        height: 60px;
+        height: 80px;
         width: auto
     }
     #logoAbt {
