@@ -17,6 +17,71 @@
 
 </head>
 <body style="font-family: 'Muli', sans-serif;">
+
+<div class="fader"></div>
+
+<div class="modal-box">
+
+    <div class="modal-top-bar">
+
+        <a> <img id="back" src="Assets/previous.svg"></a>
+
+    </div>
+
+    <div class="faq">
+        <div id="abouter">
+            <div>
+                <b>1. Is there any registration fees for the Hackathon?</b>
+                <br><i>No. You do not have to pay anything to anyone to register yourself for the Hackathon.</i>
+            </div>
+            <div>
+                <b> 2. Do I need to have any specific qualifications to be a participant for the Hackathon?</b>
+                <br><i>If you love to code, you are more than welcome to participate in the Hackathon.</i>
+            </div>
+            <div>
+                 <b> 3. How do I submit what I have made for the Hackathon?</b>
+                <br><i>You have to develop the application on your local system and submit it on HackerEarth in tar/zip file format along with instructions to run the application and source code.</i>
+            </div>
+            <div>
+                <b>4. Do we need to have the entire idea fully working?</b>
+                <br><i>The entire idea need not be fully implemented however, the submission should be functional so that it can be reviewed by the judges.</i>
+            </div>
+            <div>
+                 <b> 5. How is the environment? Will your environment support any language? Will you provide any IDE and DB for us to work on ideas? </b>
+                <br><i>You have to develop the entire software application on your local system and submit it on HackerEarth in tar/zip file format along with instructions to run the application and source code</i>
+            </div>
+            <div>
+                <b>  6.Does one have to be online and available for the entire duration of the Hackathon?</b>
+                <br><i>No, one does not need to be online for the entire duration. You can develop the application on your local system based on the given themes and then submit it, on the specific challenge page.</i>
+            </div>
+            <div>
+                 <b> 7.There is no specific technology mentioned, are there any restrictions on using a number of pre-built libraries? </b>
+                <br><i>There is no restriction to use any language, technology stack, or libraries. You can use any of them to create a web/mobile application.</i>
+            </div>
+            <div>
+                <b> 8. Do I need to give a demo for the product that I have built?</b>
+                <br><i>If you want, you can submit a small presentation or video that demonstrates your submission. However, it's not mandatory, and only good to have. In case you are one of the winners, you might be invited to demo your application at a physical event, details of which will be shared with sufficient advance notice.</i>
+            </div>
+            <div>
+                <b> 9. A fully developed application needs to have a solid backend for data storage like SQL, SharePoint etc. Since its online, is it acceptable to show only the prototype of it? </b>
+                <br><i>Yes, it's absolutely fine to submit just the prototype. If you use any database like MySQL or PostgreSQL, you can also submit a database dump along with your submission. However, you are allowed to submit just the prototype.</i>
+            </div>
+            <div>
+                <b> 10. If it is a team submission, does that mean all team members will have access to work at the same time? </b>
+                <br><i>Yes, all team members can log in from their account and do application submission on HackerEarth.</i>
+            </div>
+            <div>
+                <b> 11. Who will own the IP(Intellectual Property) Rights to the product I build? </b>
+                <br><i>The developer/developers of the web/mobile application will have all rights and own the IP of the product. However, all code needs to be in the public domain (open source) so that it can be evaluated by the judges.</i>
+            </div>
+            <div>
+                <b> 12. Is this a women-only hackathon?</b>
+                <br><i>No,this is not a women-only hackathon. For a team to be eligible to participate, there is a requirement of 50% of the members to be girls.</i>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="fullpage">
 
     <!--home-->
@@ -211,8 +276,8 @@
                         <img src="Assets/Submit.png" id="subbut" style="height: auto;width: 15vw;min-height: 45px;min-width: 167px;">
                     </a>
                     <br><br>
-                    <div style="display: inline-block;"><a href="TNC.html"><h1 class="TNCandFaqs" style="color:white;font-size: 15px"><u>Terms And Conditions</u></h1></a></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <div style="display: inline-block;"><a href="faqs.html"><h1 class="TNCandFaqs" style="color:white;font-size: 15px"><u>FAQs</u></h1></a></div>
+                    <div style="display: inline-block;"><a href="#"><h1 class="TNCandFaqs" id="terms" style="color:white;font-size: 15px"><u>Terms And Conditions</u></h1></a></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div style="display: inline-block;"><a href="#"><h1 class="TNCandFaqs" id="faq" style="color:white;font-size: 15px"><u>FAQs</u></h1></a></div>
                 </div>
             </div>
             <div  id="event">
@@ -222,6 +287,32 @@
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+    $(document).ready(function(){
+        $('#back').click(function(){
+            $('.fader').fadeOut(400);
+            $('.modal-box').fadeOut(400);
+            $('.faq').fadeOut(400);
+            $('.terms').fadeOut(400);
+        });
+
+        $('#terms').click(function(){
+            $('.fader').fadeIn(400);
+            $('.modal-box').fadeIn(400);
+            $('.terms').fadeIn(400);
+        });
+        
+        $('#faq').click(function(){
+            $('.fader').fadeIn(400);
+            $('.modal-box').fadeIn(400);
+            $('.faq').fadeIn(400);
+        });
+    })
+
+</script>
+
 <!--<script src="js/fullpage.js"></script>-->
 <!--<script src="js/jquery.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.js"></script>
