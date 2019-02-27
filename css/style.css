@@ -1,6 +1,15 @@
 body {
     margin: 0;
 }
+
+.imgTracks{
+    height: 8vw;
+    width: 8vw;
+    vertical-align: middle;
+}
+#rtrack{
+    margin-top: 100px;
+}
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
     background-color: rgb(48,125,255)!important;
 }
@@ -9,6 +18,12 @@ body {
     cursor: pointer;
 }
 @media (max-width : 800px) {
+    .rmmargin{
+        transform: translateY(-24%);
+    }
+    .rmmmargin{
+        transform: translateY(-50%);
+    }
     .animated {
       -o-transition-property: none !important;
       -moz-transition-property: none !important;
@@ -94,12 +109,12 @@ body {
     }
 
     .cardTop {
-        height: 33vw;
-        width: 33vw;
+        height: 40vw;
+        width: 40vw;/*
         min-width: 120px;
         min-height: 120px;
         max-height: 180px;
-        max-width: 180px;
+        max-width: 180px;*/
         margin: 3vh 3.8vw 0 3.8vw;
         border-radius: 15px;
         background: rgb(81, 213, 191);
@@ -107,20 +122,20 @@ body {
     }
 
     .cardBottom {
-        height: 33vw;
-        width: 33vw;
+        height: 40vw;
+        width: 40vw;/*
         min-width: 120px;
         min-height: 120px;
         max-height: 180px;
-        max-width: 180px;
+        max-width: 180px;*/
         margin: 3vh 3.8vw 0 3.8vw;
         border-radius: 15px;
         background: rgb(81, 213, 191);
         display: inline-block;
-    }
+    }/*
     .cardLast {
         margin-bottom: 6vh;
-    }
+    }*/
     .X {
         margin-top: 10vh;
     }
@@ -249,7 +264,7 @@ body {
     }
     .sponDivTop {
         /*display: inline-block;*/
-        margin-top: 15vh
+        margin-top: 1vh;
     }
     /*}*/
     /*.sponDivBottom{*/
@@ -271,42 +286,57 @@ body {
         height: 33px;
         width: auto;
     }
+    #imgSix{
+        height: 48px;
+        width: 48px;
+    }
     #divImgOne{
-        margin: 150px auto 80px auto;
+        margin: 100px auto 37px auto;
         display: block;
     }
     #divImgThree{
-        margin: 50px auto 80px auto;
+        margin: 45px auto 37px auto;
         display: block;
     }
     #divImgTwo {
-        margin: 50px auto 80px auto;
+        margin: 45px auto 37px auto;
         display: block;
     }
     #divImgFour{
-        margin: 50px auto 80px auto;
+        margin: 45px auto 37px auto;
+        display: block;
+    }
+    #divImgSix{
+        margin: 45px auto 37px auto;
         display: block;
     }
 
 }
 @media (min-width : 801px) {
     #divImgOne{
-        margin: 0 150px 145px 0;
+        margin: 0 150px 135px 0;
         display: inline-block;
     }
     #divImgThree{
-        margin: 0 150px 150px 0;
+        margin: 0 150px 130px 0;
         display: inline-block;
     }
     #divImgTwo {
-        margin: 0 150px 150px 75px;
+        margin: 0 150px 130px 75px;
         display: inline-block;
     }
     #divImgFour{
-        margin: 0 150px 150px 0;
+        margin: 0 150px 130px 0;
         display: inline-block;
     }
-
+    #divImgFive {
+        margin: 0 150px 130px -140px;
+        display: inline-block;
+    }
+    #divImgSix{
+        margin: 0 150px 230px 200px;
+        display: inline-block;
+    }
     .sponDiv {
         height: 100vh;
         width : 84vw;
@@ -316,7 +346,7 @@ body {
     }
     .sponDivTop{
         display: inline-block;
-        margin-top: 30vh
+        margin-top: 15vh
     }
     .sponDivBottom{
         display: inline-block;
@@ -334,6 +364,16 @@ body {
         width: auto;
     }
     #imgFour{
+        height: 60px;
+        width: auto
+    }
+
+    #imgFive{
+        height: 60px;
+        width: auto
+    }
+
+    #imgSix{
         height: 60px;
         width: auto
     }
@@ -389,9 +429,9 @@ body {
         display: flex;
     }
     .cardTop {
-        height: 14vw;
-        width : 14vw;
-        margin : 22vh 2vw 2vh 1vw;
+        height: 24vw;
+        width : 24vw;
+        margin : 20vh 2vw 2vh 4vw;
         min-width: 120px;
         min-height : 120px;
         max-width: 210px;
@@ -401,9 +441,9 @@ body {
         display: inline-block;
     }
     .cardBottom {
-        height: 14vw;
-        width : 14vw;
-        margin : 10vh 2vw 2vh 1vw;
+        height: 24vw;
+        width : 24vw;
+        margin : 9vh 2vw 2vh 4vw;
         min-width: 120px;
         min-height : 120px;
         max-width: 210px;
