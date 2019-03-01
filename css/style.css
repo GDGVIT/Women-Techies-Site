@@ -1,7 +1,9 @@
 body {
     margin: 0;
 }
-
+.tracklist{
+    cursor: pointer;
+}
 .imgTracks{
 
 }
@@ -344,11 +346,11 @@ body {
         display: block;
     }
     #divImgTwo {
-        margin: 110px auto 37px 80px;
+        margin: 110px 37px 37px 80px;
         display: block;
     }
     #divImgFour{
-        margin: 46px auto 37px 10px;
+        margin: 46px 37px 37px 10px;
         display: block;
     }
     #divImgFive{
@@ -356,7 +358,7 @@ body {
         display: block;
     }
     #divImgSix{
-        margin: auto auto 37px 20px;
+        margin: auto 37px 37px 20px;
         display: block;
     }
     #divImgSeven{
@@ -708,6 +710,12 @@ body {
     width: 100%;
     height: auto;
 }
+
+.algo{
+    width: 100%;
+    height: auto;
+}
+
 
 #abouter{
     width: 100%;
