@@ -18,7 +18,7 @@ body {
 @media (max-width : 800px) {
     .tracklist{
         height: 20vh;width: 20vh;
-        background: rgb(81,213,191);
+        /*background: rgb(81,213,191);*/
         border-radius: 15px;
         padding-top: 0px;
         margin-top: 8vh;
@@ -285,26 +285,30 @@ body {
     }
     .sponDiv {
         height: 100vh;
-        width : 100vw;
+        width : 50vw;
         background-color: transparent;
         position: absolute;
-        z-index: 1
+        z-index: 1;
+        display: inline-block;
+        text-align: center;
     }
     .sponDivTop {
-        /*display: inline-block;*/
+        display: inline-flex;
         margin-top: 3vh;
+        text-align: center;
     }
-    /*}*/
-    /*.sponDivBottom{*/
-        /*display: inline-block;*/
-    /*}*/
+    
+    .sponDivBottom{
+        display: inline-flex;
+    }
     #imgOne{
         height: 45px;
         width: auto;
     }
     #imgThree{
-        height: 32px;
-        width: auto;
+
+        height: 42px;
+        width: 120px;
     }
     #imgTwo {
         height: 38px;
@@ -314,37 +318,62 @@ body {
         height: 33px;
         width: auto;
     }
+    #imgFive{
+        height: 100px;
+        width: 160px
+
+    }
     #imgSix{
+        height: 100px;
+        width: 100px;
+    }
+    #imgSeven{
+        height: 68px;
+        width: 68px;
+    }
+    #imgEight{
         height: 68px;
         width: 68px;
     }
     #divImgOne{
-        margin: 110px auto 37px auto;
+        margin: 110px 40px 37px 18vw;
         display: block;
     }
     #divImgThree{
-        margin: 45px auto 37px auto;
+        margin: 48px 37px 37px 12vw;
         display: block;
     }
     #divImgTwo {
-        margin: 45px auto 37px auto;
+        margin: 110px auto 37px 80px;
         display: block;
     }
     #divImgFour{
-        margin: 45px auto 37px auto;
+        margin: 46px auto 37px 10px;
+        display: block;
+    }
+    #divImgFive{
+        margin: auto 37px 37px 8vw;
         display: block;
     }
     #divImgSix{
-        margin: 45px auto 37px auto;
+        margin: auto auto 37px 20px;
+        display: block;
+    }
+    #divImgSeven{
+        margin: 20px 40px 37px 90px;
+        display: block;
+    }
+    #divImgEight{
+        margin: 20px 37px 120px 60px;
         display: block;
     }
 
 }
 @media (min-width : 801px) {
     .tracklist{
-        background: rgb(81,213,191);
+        /*background: rgb(81,213,191);*/
         height: 34vh;width: 34vh;
-        background: rgb(81,213,191);
+        /*background: rgb(81,213,191);*/
         border-radius: 15px;
         margin-top: 3vh;
     }
@@ -369,31 +398,40 @@ body {
           list-style: none;
     }
     #divImgOne{
-        margin: 0 150px 135px 0;
+        margin: 0 150px 90px 0;
         display: inline-block;
     }
     #divImgThree{
-        margin: 0 150px 130px 0;
+        margin: 0 150px 90px 0;
         display: inline-block;
     }
     #divImgTwo {
-        margin: 0 150px 130px 75px;
+        margin: 0 150px 90px 75px;
         display: inline-block;
     }
     #divImgFour{
-        margin: 0 150px 130px 0;
+        margin: 0 150px 90px 0;
         display: inline-block;
     }
     #divImgFive {
-        margin: 0 150px 130px -70px;
+        margin: 0 70px 90px auto;
+        display: inline-block;
+    }
+    #divImgSeven {
+        margin: 0 280px 90px 100px;
+        display: inline-block;
+    }
+
+    #divImgEight {
+        margin: 0 270px 90px 100px;
         display: inline-block;
     }
     #divImgSix{
-        margin: 0 150px 230px 200px;
+        margin: 0 150px 90px 80px;
         display: inline-block;
     }
     .sponDiv {
-        height: 100vh;
+        height: 50vh;
         width : 84vw;
         background-color: transparent;
         position: absolute;
@@ -401,7 +439,7 @@ body {
     }
     .sponDivTop{
         display: inline-block;
-        margin-top: 15vh
+        margin-top: 5vh
     }
     .sponDivBottom{
         display: inline-block;
@@ -427,8 +465,12 @@ body {
         height: 60px;
         width: auto
     }
+    #imgSeven{
+        height: 110px;
+        width: auto;
+    }
 
-    #imgSix{
+    #imgSix,#imgEight{
         height: 80px;
         width: auto
     }
