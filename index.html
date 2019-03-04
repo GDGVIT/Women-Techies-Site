@@ -15,8 +15,145 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/buttonAnim.css">
 
+
+<style>
+        @media (max-width : 990px) {
+            .adjust {
+                margin-top : 10vh;
+            }
+            .padR{
+                padding-right: 8vw;
+            }
+            .padRs{
+                padding-right: 18vw;
+            }
+            .lbryMar{
+                margin-right: 4vw;
+            }
+        }
+    </style>
 </head>
 <body style="font-family: 'Muli', sans-serif;">
+
+<div class="fader"></div>
+
+<div class="modal-box">
+
+    <div class="modal-top-bar">
+
+        <a> <img id="back" src="Assets/previous.svg"></a>
+
+    </div>
+
+    <div class="faq">
+        <div id="abouter">
+            <div>
+                <b>1. Is there any registration fees for the Hackathon?</b>
+                <br><i>No. You do not have to pay anything to anyone to register yourself for the Hackathon.</i>
+            </div>
+            <div>
+                <b> 2. Do I need to have any specific qualifications to be a participant for the Hackathon?</b>
+                <br><i>If you love to code, you are more than welcome to participate in the Hackathon.</i>
+            </div>
+            <div>
+                 <b> 3. How do I submit what I have made for the Hackathon?</b>
+                <br><i>You have to develop the application on your local system and submit it on HackerEarth in tar/zip file format along with instructions to run the application and source code.</i>
+            </div>
+            <div>
+                <b>4. Do we need to have the entire idea fully working?</b>
+                <br><i>The entire idea need not be fully implemented however, the submission should be functional so that it can be reviewed by the judges.</i>
+            </div>
+            <div>
+                 <b> 5. How is the environment? Will your environment support any language? Will you provide any IDE and DB for us to work on ideas? </b>
+                <br><i>You have to develop the entire software application on your local system and submit it on HackerEarth in tar/zip file format along with instructions to run the application and source code</i>
+            </div>
+            <div>
+                <b>  6.Does one have to be online and available for the entire duration of the Hackathon?</b>
+                <br><i>No, one does not need to be online for the entire duration. You can develop the application on your local system based on the given themes and then submit it, on the specific challenge page.</i>
+            </div>
+            <div>
+                 <b> 7.There is no specific technology mentioned, are there any restrictions on using a number of pre-built libraries? </b>
+                <br><i>There is no restriction to use any language, technology stack, or libraries. You can use any of them to create a web/mobile application.</i>
+            </div>
+            <div>
+                <b> 8. Do I need to give a demo for the product that I have built?</b>
+                <br><i>If you want, you can submit a small presentation or video that demonstrates your submission. However, it's not mandatory, and only good to have. In case you are one of the winners, you might be invited to demo your application at a physical event, details of which will be shared with sufficient advance notice.</i>
+            </div>
+            <div>
+                <b> 9. A fully developed application needs to have a solid backend for data storage like SQL, SharePoint etc. Since its online, is it acceptable to show only the prototype of it? </b>
+                <br><i>Yes, it's absolutely fine to submit just the prototype. If you use any database like MySQL or PostgreSQL, you can also submit a database dump along with your submission. However, you are allowed to submit just the prototype.</i>
+            </div>
+            <div>
+                <b> 10. If it is a team submission, does that mean all team members will have access to work at the same time? </b>
+                <br><i>Yes, all team members can log in from their account and do application submission on HackerEarth.</i>
+            </div>
+            <div>
+                <b> 11. Who will own the IP(Intellectual Property) Rights to the product I build? </b>
+                <br><i>The developer/developers of the web/mobile application will have all rights and own the IP of the product. However, all code needs to be in the public domain (open source) so that it can be evaluated by the judges.</i>
+            </div>
+            <div>
+                <b> 12. Is this a women-only hackathon?</b>
+                <br><i>No,this is not a women-only hackathon. For a team to be eligible to participate, there is a requirement of 50% of the members to be girls.</i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="terms">
+        <div id="abouter">
+            <ul style="list-style: none;">
+                Any kind of professionalism begins with obeying all the rules and regulations. By participating, you agree to these terms and conditions.<br><br>
+                <li>Participation in the Hackathon constitutes participant's full and unconditional agreement to and acceptance of these Terms and Conditions.</li>
+                <li>It is mandatory for participants to participate in the hackathon in a team of a maximum of 4 members with 50% of the members as girls. Participants need to attend the entirety of the duration of the respective events to be eligible for certificates.</li>
+                <li>Judging panel with relevant expertise will be responsible for the evaluation of the pitches presented by the participants. The entry that earns the highest overall score will win. The decisions of the Judges will be final. In case of a tie, judges will deliberate to determine the winner. Each participant or team must be available during the judging period to represent their entry.</li>
+                <li>The judging time may extend beyond the said time. Determination of eligibility and compliance is at the sole discretion of the judging committee. The judging committee reserves rights to disqualify any entry if the entry or a participant or a participant’s team does not comply with these terms.</li>
+                 <li>Participant represents and warrants that the entry is and will be participant's own original work and does not and will not infringe the intellectual property or proprietary rights of any third party, including, without limitation, any third party patents, copyrights or trademarks.</li>
+               <li>Participants hereby agree not to instigate, maintain or authorize any action against the organising committee, speakers, or any other person during the event.</li>
+               <li>Nothing herein shall constitute an employment, joint venture, or partnership relationship between participant and any of the sponsors. Participants will not receive any compensation from sponsors' in connection with any entries.</li>
+                <li>In no event will the organising committee be liable to the participant for any direct, special, incidental, exemplary, punitive arising out of or in connection with his/her participation in the hackathon, whether such liability arises from any claim based upon contract, warranty, tort (including negligence), strict liability or otherwise, and whether or not sponsors have been advised of the possibility of such loss or damage.</li>
+                <li>Some jurisdictions do not allow the limitation or exclusion of liability for incidental or consequential damages, so the above limitation or exclusion may not apply to you.</li>
+                <li>Each team is responsible for determining the disposition of any intellectual property rights developed by its members in the course of participating in the hackathon.</li>
+                <li>The entire prize money will be split evenly among all members of the winning team(s).</li>
+                <li>Participants not complying or not abiding by the rules and regulations will be facing consequences will are entirely at the discretion of the organising committee.</li>
+            </ul>                
+        </div>
+    </div>
+
+    <div class="algo">
+        <div id="abouter">
+            <ul>
+                Algorithm Based Track: Tour around Tamil Nadu.<br><br>
+                <li>You have recently been admitted to VIT University, Vellore. While you are here to attend the orientation programme of the university, you decide to go on a solo backpacking trip around the entire state of Tamil Nadu and learn about the culture and heritage of the state. But college starts in a few days and you are keen on visiting the attractions of each area in Tamil Nadu with limited funds!</li>
+                <li>You decide to start your trip at Vellore and be back in Vellore at the end of the trip has covered all the major attractions of Tamil Nadu. Given the time and money constraints, you have to act smart! So, you divide the entire state into smaller districts and plan on visiting the attractions in each district in a day. So basically, the plan is to see everything in a district in one day, then move to another district by bus, the next day.</li>
+                <li>In order to see the attractions within a district, it'll be necessary to rent a car. This causes logistical difficulties as the car must be returned to the car rental agency. This means you have to take the next bus from the same bus stop where you last arrived in the district.</li>
+                <li>After doing all of that, it turns out that there’s not much time left for planning. You write down all the bus options for the given days and quickly establish the initial schedule. Bingo! However, you soon realize that the buses you’ve chosen would indeed allow you to visit all the areas but the total cost is too high. You have to choose buses that would lower the cost of the trip.</li>
+                 <li>You need to stick to the plan: the first bus should depart at the indicated bus stand and each subsequent bus trip should take place the following day and depart from the bus stand where you last arrived. On your last day of the trip, you should arrive back in Vellore.</li>
+               <li>Participants hereby agree not to instigate, maintain or authorize any action against the organising committee, speakers, or any other person during the event.</li><br>
+               <li><b>Devise a web/mobile application which has an optimal algorithmic solution at its core to the aforementioned problem.</b></li>
+                
+            </ul>                
+        </div>
+    </div>
+
+    <div class="womensefety">
+        <div id="abouter">
+            <ul>
+                Women Safety<br><br>
+                <li>You have recently been admitted to VIT University, Vellore. While you are here to attend the orientation programme of the university, you decide to go on a solo backpacking trip around the entire state of Tamil Nadu and learn about the culture and heritage of the state. But college starts in a few days and you are keen on visiting the attractions of each area in Tamil Nadu with limited funds!</li>
+                <li>You decide to start your trip at Vellore and be back in Vellore at the end of the trip has covered all the major attractions of Tamil Nadu. Given the time and money constraints, you have to act smart! So, you divide the entire state into smaller districts and plan on visiting the attractions in each district in a day. So basically, the plan is to see everything in a district in one day, then move to another district by bus, the next day.</li>
+                <li>In order to see the attractions within a district, it'll be necessary to rent a car. This causes logistical difficulties as the car must be returned to the car rental agency. This means you have to take the next bus from the same bus stop where you last arrived in the district.</li>
+                <li>After doing all of that, it turns out that there’s not much time left for planning. You write down all the bus options for the given days and quickly establish the initial schedule. Bingo! However, you soon realize that the buses you’ve chosen would indeed allow you to visit all the areas but the total cost is too high. You have to choose buses that would lower the cost of the trip.</li>
+                 <li>You need to stick to the plan: the first bus should depart at the indicated bus stand and each subsequent bus trip should take place the following day and depart from the bus stand where you last arrived. On your last day of the trip, you should arrive back in Vellore.</li>
+               <li>Participants hereby agree not to instigate, maintain or authorize any action against the organising committee, speakers, or any other person during the event.</li><br>
+               <li><b>Devise a web/mobile application which has an optimal algorithmic solution at its core to the aforementioned problem.</b></li>
+                
+            </ul>                
+        </div>
+    </div>
+
+
+</div>
+
 <div id="fullpage">
 
     <!--home-->
@@ -88,10 +225,71 @@
 
                 <img src="Assets/WTM.png" id="logoPs">
             </div>
+
             <div class="col-md-10" id="leftPs" style="float:left;display: inline-block;background: rgba(0,194,162,1);color: white;">
+            </div>
+                    <!-- <div class="container-fluid">
+                <div class="row align-items-center adjust" style="height: 150px;">
+                    <div class="col-xs-2 col-md-3 " >
+
+                    </div>
+                    <div class="col lbryMar" >
+                        <img class=" figure-img"  src="Assets/WTM.png" height="70px">
+                    </div>
+                    <div class="col padRs">
+                        <img class="figure-img" src="Assets/lbry.svg" height="60px" >
+                    </div>
+                    <div class="col-xs-2 col-md-3 " >
+
+                    </div>
+                </div>
+                <div class="row align-items-center adjust" style="height: 150px;">
+                    <div class="col-xs-2 col-md-2" >
+
+                    </div>
+                    <div class="col padR" >
+                        <img class="img-fluid figure-img" src="Assets/upcloud.svg" >
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid figure-img" src="Assets/turbot.svg" >
+                    </div>
+                    <div class="col-xs-2 col-md-2" >
+
+                    </div>
+                </div>
+                <div class="row align-items-center adjust" style="height: 150px;">
+                    <div class="col-xs-2 col-md-3" >
+
+                    </div>
+                    <div class="col padR" >
+                        <img class="img-fluid figure-img" src="Assets/hacker.svg" height="100px">
+                    </div>
+                    <div class="col" >
+                        <img class="figure-img" src="Assets/msg.svg" height="70px">
+                    </div>
+                    <div class="col-xs-2 col-md-3" >
+
+                    </div>
+                </div>
+                <div class="row align-items-center adjust" style="height: 150px;">
+                    <div class="col-xs-2 col-md-3" >
+
+                    </div>
+                    <div class="col padR" >
+                        <img class="figure-img"  src="Assets/jetbrains.svg" height="120px">
+                    </div>
+                    <div class="col" >
+                        <img class="figure-img"  src="Assets/c9bistro.png" height="120px">
+                    </div>
+                    <div class="col-xs-2 col-md-3" >
+
+                    </div>
+                </div>
 
             </div>
-
+        
+            </div>
+ -->
 
 
             <div  id="details" >
@@ -100,18 +298,35 @@
             </div>
 
 
+
+
             <div class="sponDiv">
+
                 <div class="sponDivTop">
-                    <a href="https://lbry.io/" target="_blank"><div id="divImgOne" ><img id="imgOne" style="filter: brightness(0) invert(1)" src="Assets/lbry.svg"></div></a>
-                    <a href="https://turbot.com/" target="_blank"><div id="divImgTwo" ><img id="imgTwo" src="Assets/turbot.svg" style="filter: brightness(0) invert(1)"></div></a>
-
-
+                    <a href="https://www.womentechmakers.com/" target="_blank"><div id="divImgOne"  ><img style="filter: brightness(0) invert(1);" id="imgOne" src="Assets/WTM.png"></div></a>
+                    <a href="https://lbry.io/" target="_blank"><div id="divImgTwo" ><img style="filter: brightness(0) invert(1);" id="imgTwo" src="Assets/lbry.svg" ></div></a>
                 </div>
+
+                <div class="sponDivBottom">
+                    <a href="https://upcloud.com/" target="_blank"><div id="divImgThree"><img style="filter: brightness(0) invert(1);" id="imgThree" src="Assets/upcloud.svg"></div></a>
+                    <a href="https://turbot.com/" target="_blank"><div id="divImgFour" ><img style="filter: brightness(0) invert(1);" id="imgFour" src="Assets/turbot.svg" ></div></a>
+                </div>
+
                 <div class="sponDivBottom">
                     <a href="https://upcloud.com/" target="_blank"><div id="divImgThree"  ><img id="imgThree" src="Assets/upcloud.svg" style="filter: brightness(0) invert(1)"></div></a>
                     <a href="https://www.hackerearth.com/" target="_blank"><div id="divImgFour" ><img id="imgFour" src="Assets/hacker.svg" style="filter: brightness(0) invert(1)" ></div></a>
                 </div>
+
+                 <div class="sponDivBottom">
+                    <a href="https://www.jetbrains.com/" target="_blank"><div id="divImgSeven"  ><img id="imgSeven" src="Assets/jetbrains.svg"></div></a>
+                    <a href="#" target="_blank"><div id="divImgEight" ><img id="imgEight" src="Assets/c9bistro.png" ></div></a>
+                </div>
+
             </div>
+
+        
+
+
         </div>
     </div>
 
@@ -126,38 +341,47 @@
             <div id="rightTr" class="col-md-10" style="float: right;height: 100vh; display: inline-block; background: rgba(0,194,162,1); color : white;">
                 <!--place for cards    -->
 
-                <div>
+               <!--  <div>
                     <p class="coming-soon">Coming Soon....</p>
                 </div>
+ -->
+                <ul class="mainlist" style="">
 
-                <!--<div class="row" style="text-align: center;" >-->
-                    <!--<div class="col-md-6 col-lg-3 cardTop X " >-->
+                    
+                    <li class="tracklist" id="algotrack" style="" >
+                        
+                        <h4 class="trackContent">Algorithm Based Track: Tour around Tamil Nadu</h4>
+                        <img style="" class="imgTracks" src="Assets/WTM tracks/data.png">
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardTop "  >-->
+                    </li>
+                    
+                    <li class="tracklist" style="" >
+                        <h4 class="trackContent">Women Safety</h4>
+                        <img style="" class="imgTracks extpad" src="Assets/WTM tracks/Group 64.png">
+                    </li>
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardTop"  >-->
+                    <li class="tracklist" style="" >
+                        <h4 class="trackContent extsmall">Supply and Demand of Agricultural Inputs through LBRY Implementation</h4>
+                        <img  class="imgTracks" src="Assets/WTM tracks/Group 67.png">
+                    </li>
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardTop"  >-->
+                    <li class="tracklist" style="" >
+                        <h4 class="trackContent">Women Education</h4>
+                        <img style="" class="imgTracks extpad" src="Assets/WTM tracks/Group 69.png">
+                    </li>
 
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="row" style="text-align: center">-->
-                    <!--<div class="col-md-6 col-lg-3 cardBottom " >-->
+                    <li class="tracklist" style="" >
+                        <h4 class="trackContent">Open Innovation - Turbot Challenge</h4>
+                        <img style="" class="imgTracks" src="Assets/WTM tracks/Group 71.png">
+                    </li>
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardBottom" >-->
+                    <li class="tracklist" style="" >
+                        <h4 class="trackContent">Open Innovation through LBRY Implementation</h4>
+                        <img style="" class="imgTracks" src="Assets/WTM tracks/Group 71.png">
+                    </li>
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardBottom cardLast" >-->
+                </ul>
 
-                    <!--</div>-->
-                    <!--<div class="col-md-6 col-lg-3 cardBottom cardLast" >-->
-
-                    <!--</div>-->
-                <!--</div>-->
             </div>
             <div id="about" >Tracks</div>
 
@@ -195,8 +419,8 @@
                         <img src="Assets/Submit.png" id="subbut" style="height: auto;width: 15vw;min-height: 45px;min-width: 167px;">
                     </a>
                     <br><br>
-                    <div style="display: inline-block;"><a href="TNC.html"><h1 class="TNCandFaqs" style="color:white;font-size: 15px"><u>Terms And Conditions</u></h1></a></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <div style="display: inline-block;"><a href="faqs.html"><h1 class="TNCandFaqs" style="color:white;font-size: 15px"><u>FAQs</u></h1></a></div>
+                    <div style="display: inline-block;"><a href="#"><h1 class="TNCandFaqs" id="terms" style="color:white;font-size: 15px"><u>Terms And Conditions</u></h1></a></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div style="display: inline-block;"><a href="#"><h1 class="TNCandFaqs" id="faq" style="color:white;font-size: 15px"><u>FAQs</u></h1></a></div>
                 </div>
             </div>
             <div  id="event">
@@ -206,6 +430,36 @@
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('#back').click(function(){
+            $('.fader').fadeOut(400);
+            $('.modal-box').fadeOut(400);
+            $('.faq').fadeOut(400);
+            $('.terms').fadeOut(400);
+        });
+        $('#terms').click(function(){
+            $('.fader').fadeIn(400);
+            $('.modal-box').fadeIn(400);
+            $('.terms').fadeIn(400);
+        });
+        
+        $('#faq').click(function(){
+            $('.fader').fadeIn(400);
+            $('.modal-box').fadeIn(400);
+            $('.faq').fadeIn(400);
+        });
+
+        $('#algotrack').click(function(){
+            $('.fader').fadeIn(400);
+            $('.modal-box').fadeIn(400);
+            $('.algo').fadeIn(400);
+        });
+
+    })
+</script>
+
 <!--<script src="js/fullpage.js"></script>-->
 <!--<script src="js/jquery.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.js"></script>
@@ -217,17 +471,13 @@
     function animateCSS(element, animationName, callback) {
         const node = document.querySelector(element)
         node.classList.add('animated', animationName, 'delay-0.5s')
-
         function handleAnimationEnd() {
             node.classList.remove('animated', animationName)
             node.removeEventListener('animationend', handleAnimationEnd)
-
             if (typeof callback === 'function') callback()
         }
-
         node.addEventListener('animationend', handleAnimationEnd)
     }
-
     function applyAnimations(i){
         if(i === "two"){
             animateCSS('#leftAbt', 'fadeInLeft');
@@ -245,7 +495,6 @@
             animateCSS('#leftDet', 'fadeInRight');
             animateCSS('#event', 'fadeInLeft');
         }
-
     }
     animateCSS('#img-mid', 'fadeInUp');
     $('#fullpage').fullpage({
@@ -269,7 +518,6 @@
             if(origin.index == 1 && direction =='down'){
 //                    alert("Going to section 3!");
             }
-
             else if(origin.index == 1 && direction == 'up'){
 //                    alert("Going to section 1!");
             }
@@ -280,13 +528,8 @@
     //         'scrollTop' : $("#two").position().top
     //     });
     // });
-
     //methods
     $.fn.fullpage.setAllowScrolling(true);
-
-
-
-
 </script>
 
 </body>
