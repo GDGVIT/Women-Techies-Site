@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="528f80db-819b-4714-83f7-8367c08f06d2" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/Assets/WTM tracks/Group 64.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/WTM tracks/Group 67.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/WTM tracks/Group 69.png" afterDir="false" />
@@ -15,6 +16,10 @@
       <change afterPath="$PROJECT_DIR$/check.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TNC.html" beforeDir="false" afterPath="$PROJECT_DIR$/TNC.html" afterDir="false" />
+>>>>>>> parent of a6cc23e... About content update
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TNC.html" beforeDir="false" afterPath="$PROJECT_DIR$/TNC.html" afterDir="false" />
@@ -34,6 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="157">
               <caret line="302" column="33" selection-start-line="302" selection-start-column="33" selection-end-line="302" selection-end-column="33" />
@@ -95,6 +101,8 @@
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
 =======
+=======
+>>>>>>> parent of a6cc23e... About content update
             <state relative-caret-position="225">
               <caret line="111" column="74" selection-start-line="111" selection-start-column="74" selection-end-line="111" selection-end-column="74" />
               <folding>
@@ -140,8 +148,13 @@
         <entry file="file://$PROJECT_DIR$/faqs.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="1403">
               <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+=======
+            <state relative-caret-position="-128">
+              <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+>>>>>>> parent of a6cc23e... About content update
 =======
             <state relative-caret-position="-128">
               <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
@@ -158,7 +171,11 @@
         <entry file="file://$PROJECT_DIR$/TNC.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="1840">
+=======
+            <state relative-caret-position="320">
+>>>>>>> parent of a6cc23e... About content update
 =======
             <state relative-caret-position="320">
 >>>>>>> parent of a6cc23e... About content update
@@ -297,8 +314,12 @@
       <workItem from="1549633966686" duration="262000" />
       <workItem from="1550231306598" duration="4630000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1551072893722" duration="1291000" />
       <workItem from="1551710281292" duration="272000" />
+=======
+      <workItem from="1551072893722" duration="21000" />
+>>>>>>> parent of a6cc23e... About content update
 =======
       <workItem from="1551072893722" duration="21000" />
 >>>>>>> parent of a6cc23e... About content update
@@ -307,7 +328,11 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="30783000" />
+=======
+    <option name="totallyTimeSpent" value="29241000" />
+>>>>>>> parent of a6cc23e... About content update
 =======
     <option name="totallyTimeSpent" value="29241000" />
 >>>>>>> parent of a6cc23e... About content update
@@ -340,6 +365,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -429,6 +455,9 @@
           <caret line="372" column="1" selection-start-line="372" selection-start-column="1" selection-end-line="372" selection-end-column="1" />
 =======
       <provider selected="true" editor-type-id="text-editor">
+=======
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> parent of a6cc23e... About content update
         <state relative-caret-position="225">
           <caret line="111" column="74" selection-start-line="111" selection-start-column="74" selection-end-line="111" selection-end-column="74" />
           <folding>
@@ -466,6 +495,31 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
 >>>>>>> parent of a6cc23e... About content update
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6670">
+          <caret line="290" column="1" selection-start-line="290" selection-end-line="290" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faqs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TNC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="80" column="104" selection-start-line="80" selection-start-column="104" selection-end-line="80" selection-end-column="104" />
         </state>
       </provider>
     </entry>
